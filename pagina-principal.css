@@ -44,4 +44,52 @@ nav a {
 
 }
 
+.analise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    gap: 2rem;
+    flex-wrap: wrap; 
+}
+
+.analise img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.analise .texto {
+    max-width: 500px;
+    color: #e0e0e0;
+}
+
+.analise .texto h3 {
+    color: #00ffcc;
+    margin-bottom: 0.5rem;
+}
+
+.analise .texto p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .analise {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .analise img {
+        width: 80%;
+    }
+
+    .analise .texto {
+        max-width: 90%;
+    }
+}
+
 
