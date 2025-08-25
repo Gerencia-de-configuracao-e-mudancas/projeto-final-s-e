@@ -56,6 +56,18 @@ nav a {
     flex-wrap: wrap; 
 }
 
+#NomeSite {
+    padding-left: 590px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#DescricaoSite {
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
 .analise img {
     width: 250px;
     border-radius: 10px;
@@ -74,32 +86,26 @@ nav a {
 .analise .texto p {
     text-align: justify;
 }
-
-@media (max-width: 768px) {
-    .analise {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .analise img {
-        width: 80%;
-    }
-
-    .analise .texto {
-        max-width: 90%;
-    }
+.analise .texto {
+    max-width: 90%;
 }
+
 #TituloSite{
-        text-align: center;
-    }
-    #Subtitulo{
-        text-align: center;
-    }
-        p{
-        text-align: justify:
-        }
-    
+    text-align: center;
+}
+#Subtitulo{
+    text-align: center;
+}
 
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 2px solid #00ffcc;
+}
 
-
-
+footer p {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+}
