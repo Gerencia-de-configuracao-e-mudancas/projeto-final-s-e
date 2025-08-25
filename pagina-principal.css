@@ -89,14 +89,14 @@ nav a {
         max-width: 90%;
     }
 }
-main{
-    h1{
+#TituloSite{
         text-align: center;
     }
-    h2{
+    #Subtitulo{
         text-align: center;
     }
-    p{
+    #DescricaoSite{
         text-align: center:
         }
 }
+
