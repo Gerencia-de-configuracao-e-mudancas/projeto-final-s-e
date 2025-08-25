@@ -96,8 +96,10 @@ nav a {
         text-align: center;
     }
     #DescricaoSite{
+        p{
         text-align: justify:
         }
+    }
 
 
 
